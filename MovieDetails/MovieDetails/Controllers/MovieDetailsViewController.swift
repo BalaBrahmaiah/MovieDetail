@@ -64,7 +64,7 @@ class MovieDetailsViewController: UIViewController {
             
             self.descriptionView.text = self.movieDetails.description as String
             self.languageLabel.text = self.movieDetails.language as String
-            self.charactersLabel.text = self.movieDetails.language as String
+            self.charactersLabel.text = self.movieDetails.characters as String
             self.directorsLabel.text = self.movieDetails.directors as String
             self.ratingLabel.text = self.movieDetails.rating as String
             self.navigationItem.title = self.movieDetails.title as String
